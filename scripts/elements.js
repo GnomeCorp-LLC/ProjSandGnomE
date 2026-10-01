@@ -226,7 +226,7 @@ const GAS_PERMEABLE = {};
 const NUM_ELEMENTS = elements.length;
 
 function initElements() {
-  if (NUM_ELEMENTS > 64)
+  if (NUM_ELEMENTS > 65)
     throw "too many elements (we only use 6 bits for element index)";
 
   if (NUM_ELEMENTS !== elementActions.length) throw "need 1 action per element";
