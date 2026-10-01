@@ -32,7 +32,7 @@ const elementMenuItems = [
   GUNPOWDER, NAPALM, NITRO, C4,
   LAVA, CRYO, FUSE, MYSTERY,
   CONCRETE, METHANE, SOIL, ACID,
-  THERMITE, BACKGROUND, ZOMBIE,
+  THERMITE, BACKGROUND, ZOMBIE, TESTING
 ];
 
 const menuNames = {};
@@ -63,6 +63,7 @@ menuNames[SOIL] = "SOIL";
 menuNames[ACID] = "ACID";
 menuNames[THERMITE] = "THERMITE";
 menuNames[ZOMBIE] = "HAND";
+menuNames[TESTING] = "TESTING";
 
 /*
  * Some element colors do not have very good contrast against
