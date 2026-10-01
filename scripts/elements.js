@@ -1265,6 +1265,10 @@ function ZOMBIE_FROZEN_ACTION(x, y, i) {
   gameImagedata32[i] = BACKGROUND;
 }
 
+function TESTING_ELEMENT_ACTION(x,y,i) {
+  
+}
+
 /*  =============================== Helpers =============================== */
 
 function __pickRandValid(a, b) {
