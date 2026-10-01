@@ -121,6 +121,7 @@ const ZOMBIE = __inGameColor(236, 223, 245);
 const ZOMBIE_WET = __inGameColor(236, 223, 245);
 const ZOMBIE_BURNING = __inGameColor(250, 130, 130);
 const ZOMBIE_FROZEN = __inGameColor(190, 190, 250);
+const TESTING_ELEMENT = __inGameColor(255,100,50);
 
 /*
  * It would be nice to combine the elements and elementActions
@@ -172,6 +173,7 @@ const elements = new Uint32Array([
   ZOMBIE_WET,
   ZOMBIE_BURNING,
   ZOMBIE_FROZEN,
+  TESTING_ELEMENT,
 ]);
 const elementActions = [
   BACKGROUND_ACTION,
@@ -215,6 +217,7 @@ const elementActions = [
   ZOMBIE_WET_ACTION,
   ZOMBIE_BURNING_ACTION,
   ZOMBIE_FROZEN_ACTION,
+  TESTING_ELEMENT_ACTION,
 ];
 Object.freeze(elementActions);
 
